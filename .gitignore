@@ -1,0 +1,34 @@
+# Ambiente virtual
+.venv/
+venv/
+
+# Arquivos de ambiente (senhas, chaves)
+.env
+
+# Arquivos temporários e de dados
+dados_completos.json
+temp_*.json
+logs/
+
+# Python
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.Python
+*.so
+.pytest_cache/
+
+# IDEs
+.vscode/
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Logs e debug
+*.log
+debug.log
+
+# Outros
+.requirements.txt 
